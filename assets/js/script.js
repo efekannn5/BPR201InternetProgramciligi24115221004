@@ -1,0 +1,1 @@
+// interaksiyonlar için yer.

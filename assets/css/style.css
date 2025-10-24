@@ -1,0 +1,26 @@
+:root{
+  --eh-bg:#f4f6fb;
+  --eh-navy:#949ba5;
+  --eh-navy-2:#848992;
+  --eh-accent:#2563eb;
+  --eh-accent-2:#10b981;
+  --eh-card:#ffffff;
+  --eh-text:#0f172a;
+}
+body{ background:var(--eh-bg); color:var(--eh-text); }
+.eh-topbar{ backdrop-filter:saturate(180%) blur(6px); }
+.eh-hero{
+  background:linear-gradient(135deg, rgba(37,99,235,.10), rgba(16,185,129,.10));
+  border:1px solid rgba(0,0,0,.05);
+  border-radius:16px;
+}
+.eh-card{ background:var(--eh-card); border:1px solid #e9edf3; border-radius:14px; overflow:hidden; }
+.eh-card .thumb{ height:160px; background:#cfd8ea url('../img/haber1.png') center/cover no-repeat; }
+@media (min-width: 992px){ .eh-card .thumb{ height:180px; } }
+.eh-badge{ font-size:.75rem; border-radius:999px; }
+.eh-sidebar{ position:sticky; top:84px; }
+.btn-primary{ background:var(--eh-accent); border-color:var(--eh-accent); }
+.btn-outline-primary{ border-color:var(--eh-accent); color:var(--eh-accent); }
+.btn-outline-primary:hover{ background:var(--eh-accent); color:#fff; }
+a.nav-link.active{ font-weight:700; color:var(--eh-accent) !important; }
+.pagination .page-link{ border-radius:8px; }
